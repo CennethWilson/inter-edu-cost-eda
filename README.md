@@ -4,7 +4,7 @@
 
 ## ℹ️ About the Project
 
-The **International Education Cost EDA** is code that analyzes:
+The **International Education Cost EDA** is project that analyzes:
 
 - Tuition Fees Distribution
 - Average Tuition Fees per Country
