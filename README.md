@@ -20,12 +20,12 @@ The **International Education Cost EDA** is code that analyzes:
 - [Python](https://www.python.org/) — primary programming language
 - [PyCharm](https://www.jetbrains.com/pycharm/) — IDE
 
-- [Pandas]
-- [NumPy]
-- [Matplotlib]
-- [Seaborn]
-- [SciPy]
-- [GeoPandas]
+- [Pandas](https://pandas.pydata.org/) — data manipulation
+- [NumPy](https://numpy.org/) — number operations
+- [Matplotlib](https://matplotlib.org/) — plotting
+- [Seaborn](https://seaborn.pydata.org/) — data visualization
+- [SciPy](https://scipy.org/) — linear regression
+- [GeoPandas](https://geopandas.org/en/stable/) — map data
 
 ---
 
@@ -41,31 +41,25 @@ To run the project locally, you'll need:
 
 ### Installation & Setup
 
-1. **Clone the repository:**
+1. **Install the necessary libraries:**
 
    ```bash
-   git clone https://github.com/CennethWilson/warehouse-management-system.git
-   cd warehouse-management-system
+   pip install pandas numpy matplotlib seaborn scipy geopandas kaggle
 
-2. **Open the project in Visual Studio:**
+2. **Download dataset through the terminal:**
 
-   Open `Warehouse Management System.sln`.
-
-3. **Configure database connection:**
-
-   Update the database connection string in `settings.json`.
    ```bash
-   Server= ;Port= ;Database= ;User ID= ;Password= ;
+   kaggle datasets download -d adilshamim8/cost-of-international-education
 
-4. **Create database tables:**
+3. **Extraxt the dataset zip:**
 
-   Run the provided `init_db.sql` to create the necessary tables.
+   ```bash
+   with zipfile.ZipFile("cost-of-international-education.zip", "r") as zip_ref:
+     zip_ref.extractall("cost-of-international-education")
 
-5. **Build the project:**
+4. **Run the code:**
 
-   `Ctrl + Shift + B`  (or use the Build menu)
-
-6. **Run the application**
+   Run the provided `code.py`
 
 ## 📃 License
 
