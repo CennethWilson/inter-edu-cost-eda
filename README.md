@@ -19,7 +19,13 @@ The **International Education Cost EDA** is code that analyzes:
 
 - [Python](https://www.python.org/) — primary programming language
 - [PyCharm](https://www.jetbrains.com/pycharm/) — IDE
-- 
+
+- [Pandas]
+- [NumPy]
+- [Matplotlib]
+- [Seaborn]
+- [SciPy]
+- [GeoPandas]
 
 ---
 
