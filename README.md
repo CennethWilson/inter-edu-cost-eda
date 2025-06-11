@@ -65,7 +65,12 @@ To run the project locally, you'll need:
 
 ## 📊 Results
 
-
+![Alt text](Figure_1.png?raw=true "Title")
+![Alt text](Figure_2.png?raw=true "Title")
+![Alt text](Figure_3.png?raw=true "Title")
+![Alt text](Figure_4.png?raw=true "Title")
+![Alt text](Figure_5.png?raw=true "Title")
+![Alt text](Figure_6.png?raw=true "Title")
 
 ## 📃 License
 
