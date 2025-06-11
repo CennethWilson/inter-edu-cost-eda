@@ -51,7 +51,7 @@ To run the project locally, you'll need:
    ```bash
    kaggle datasets download -d adilshamim8/cost-of-international-education
 
-3. **Extraxt the dataset zip:**
+3. **Extract the dataset zip:**
 
    ```bash
    with zipfile.ZipFile("cost-of-international-education.zip", "r") as zip_ref:
